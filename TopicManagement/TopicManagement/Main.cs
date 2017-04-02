@@ -407,8 +407,6 @@ namespace TopicManagement
             }
 
         }
-        
-<<<<<<< HEAD
 		/*private void btnImport_Click_1(object sender, EventArgs e)
         {
             if (cbTypeList.Text == "danh sách sinh viên") {
@@ -422,7 +420,18 @@ namespace TopicManagement
             }
             
         }*/
-=======
->>>>>>> origin/function
+		/*private void btnImport_Click_1(object sender, EventArgs e)
+        {
+            if (cbTypeList.Text == "danh sách sinh viên") {
+                dataGridView2.Rows.Clear();
+                dataGridView2.DataSource = ReadDataFromExcelFile().DefaultView;
+            }
+            else
+            {
+                dataGridView1.Rows.Clear();
+                dataGridView1.DataSource = ReadDataFromExcelFile().DefaultView;
+            }
+            
+        }*/
     }
 }
