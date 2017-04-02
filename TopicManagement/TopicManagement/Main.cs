@@ -210,7 +210,67 @@ namespace TopicManagement
         {
 
         }
-        /*################################################################################*/
+        
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		/*################################################################################*/
         //Quản lí Luận Văn
         //Xem
         private void ViewPnlTopic(String topic)
@@ -325,16 +385,7 @@ namespace TopicManagement
             }
             return data;
         }
-        private void ImportIntoDatabase(DataTable data)
-        {
-            if (data == null || data.Rows.Count == 0)
-            {
-                MessageBox.Show("Không có dữ liệu để import");
-                return;
-            }
-
-        }
-        private void btnImport_Click_1(object sender, EventArgs e)
+		/*private void btnImport_Click_1(object sender, EventArgs e)
         {
             if (cbTypeList.Text == "danh sách sinh viên") {
                 dataGridView2.Rows.Clear();
@@ -346,6 +397,29 @@ namespace TopicManagement
                 dataGridView1.DataSource = ReadDataFromExcelFile().DefaultView;
             }
             
+        }*/
+        private void ImportIntoDatabase(DataTable data)
+        {
+            if (data == null || data.Rows.Count == 0)
+            {
+                MessageBox.Show("Không có dữ liệu để import");
+                return;
+            }
+
         }
+        
+		/*private void btnImport_Click_1(object sender, EventArgs e)
+        {
+            if (cbTypeList.Text == "danh sách sinh viên") {
+                dataGridView2.Rows.Clear();
+                dataGridView2.DataSource = ReadDataFromExcelFile().DefaultView;
+            }
+            else
+            {
+                dataGridView1.Rows.Clear();
+                dataGridView1.DataSource = ReadDataFromExcelFile().DefaultView;
+            }
+            
+        }*/
     }
 }
