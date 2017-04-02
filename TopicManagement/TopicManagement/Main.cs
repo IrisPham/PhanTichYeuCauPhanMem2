@@ -408,6 +408,7 @@ namespace TopicManagement
 
         }
         
+<<<<<<< HEAD
 		/*private void btnImport_Click_1(object sender, EventArgs e)
         {
             if (cbTypeList.Text == "danh sách sinh viên") {
@@ -421,5 +422,7 @@ namespace TopicManagement
             }
             
         }*/
+=======
+>>>>>>> origin/function
     }
 }
